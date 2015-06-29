@@ -43,4 +43,4 @@ then
 fi
 
 chown -R git:git /data .
-exec su git -c "./gogs web"
+exec su git -c "./gogs web &"
